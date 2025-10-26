@@ -1,0 +1,12 @@
+name: First pipeline(2)
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check-out code
+      uses: actions/checkout@v2
+    - name: testing
+      run: echo hello world

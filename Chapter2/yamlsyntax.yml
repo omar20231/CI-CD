@@ -1,0 +1,20 @@
+#key-value pair
+
+name : John
+age : 30
+occupation : Pilot
+
+#List
+
+teams:
+- Manchester-united
+- Arsenal 
+- Liverpool
+
+
+#nested-element
+
+address:
+  street : regents
+  city : Birmingham
+  Country : United Kingdom
